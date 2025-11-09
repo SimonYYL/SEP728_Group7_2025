@@ -1,0 +1,5 @@
+pubnub>=8.1.0
+adafruit-circuitpython-dht>=4.0.4
+adafruit-circuitpython-ads1x15>=2.2.23
+gpiozero>=2.0
+lgpio>=0.2.2.0

@@ -1,0 +1,41 @@
+Metadata-Version: 2.4
+Name: pubnub
+Version: 10.4.1
+Summary: PubNub Real-time push service in the cloud
+Home-page: http://pubnub.com
+Author: PubNub
+Author-email: support@pubnub.com
+License: PubNub Software Development Kit License
+Project-URL: Source, https://github.com/pubnub/python
+Project-URL: Documentation, https://www.pubnub.com/docs/sdks/python
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.9
+License-File: LICENSE
+Requires-Dist: pycryptodomex>=3.3
+Requires-Dist: httpx>=0.28
+Requires-Dist: h2>=4.1
+Requires-Dist: requests>=2.32.2
+Requires-Dist: aiohttp>3.10.11
+Requires-Dist: cbor2>=5.6
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: home-page
+Dynamic: license
+Dynamic: license-file
+Dynamic: project-url
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary

@@ -1,0 +1,31 @@
+[device]
+id = "pi-feeder-01"
+mock_mode = false
+poll_interval_ms = 3000
+
+[pubnub]
+publish_key = "env:PUBNUB_PUB_KEY"
+subscribe_key = "env:PUBNUB_SUB_KEY"
+uuid = "pi-feeder-01"
+channel = "smart-feeder-main"
+
+[thresholds]
+max_temp_c = 30.0
+min_water_level_pct = 30.0
+
+[pins]
+dht22_data = 4   # (Pin 7) 
+servo_feed = 12  # (Pin 32) 
+buzzer_led = 26  # shared line for buzzer + led - (Pin 37)
+
+[sensors.water_level]
+enabled = true
+type = "ads1115"
+poll_interval_ms = 3000
+channel = "A3"
+i2c_addr = 72   # 0x48
+gain = 1
+# Set these after a dry/wet
+min_adc = 1000
+max_adc = 52000
+threshold_clear_pct = 10.0
