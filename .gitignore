@@ -1,0 +1,20 @@
+__pycache__/
+*.pyc
+.venv/
+.lgd-nfy0
+
+# Runtime and local state
+data/
+logs/
+
+# Local docs and private notes
+command.md
+pin_set_up.md
+
+# Config containing secrets/keys
+config/settings.toml
+config/settings.local.toml
+
+# OS/editor cruft
+.DS_Store
+Thumbs.db
